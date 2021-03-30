@@ -33,6 +33,9 @@ type (
 	// This type is most often used by GraphQL to represent free-form
 	// human-readable text.
 	String string
+
+	//JSON support json type
+	JSON string
 )
 
 // NewBoolean is a helper to make a new *Boolean.
